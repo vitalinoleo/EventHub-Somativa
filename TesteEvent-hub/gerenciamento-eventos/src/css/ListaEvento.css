@@ -1,0 +1,80 @@
+/* Define o estilo básico para o contêiner da página */
+div {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Estiliza o título da página */
+h1 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Estiliza o link de adicionar novo evento */
+a {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #0056b3;
+}
+
+/* Estiliza a lista de eventos */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Estiliza cada item da lista */
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estiliza o texto do evento */
+li span {
+    flex: 1;
+    margin-right: 10px;
+}
+
+/* Estiliza o link de editar e o botão de deletar */
+li a,
+li button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    font-size: 0.9em;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+li a {
+    background-color: #28a745;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #218838;
+}
+
+li button {
+    background-color: #dc3545;
+}
+
+li button:hover {
+    background-color: #c82333;
+}
